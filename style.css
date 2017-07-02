@@ -1,0 +1,117 @@
+body
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+.panel
+{
+  box-shadow: 10px 10px 5px #888888;
+  /*width: 100%;*/
+  /*margin-left: 5%;*/
+}
+.panel-default > .panel-heading 
+{
+  color: #333;
+  background-color: darkcyan;
+  border-color: greenyellow;
+  height: 100px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+.panel-default > .panel-body
+{
+  color: green;
+}
+.panel-default > .panel-footer
+{
+  
+}
+#whattodo
+{
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 30px;
+  width: 70%;
+}
+input[type='text']
+{
+  color: black;
+  font-size: 20px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.glyphicon
+{
+  margin-left: 10px;
+  margin-bottom: 5px;
+  top: 5px;
+}
+
+li
+{
+  background-color: #ddd;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  list-style: none;
+  color: black;
+  padding: 6px;
+  padding-left: 10px;
+}
+ul li:nth-child(odd)
+{
+  background: #f9f9f9;
+}
+ul li:hover
+{
+  background-color: #BEBEBE;
+}
+#icon
+{
+  float: right;
+  margin-bottom: 15px;
+}
+#icon > .glyphicon-remove-sign
+{
+  right: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.panel-footer > .glyphicon-ok
+{
+  font-size: 150px;
+  margin-left: 40%;
+  color: darkcyan;
+}
+.badge
+{
+  font-size: 60px;
+  margin-left: -200px;
+  background-color: transparent;
+  color: green;
+}
+a
+{
+  color: white;
+}
+.panel-footer > .glyphicon-trash
+{
+  font-size: 50px;
+  margin-left: 10%;
+  color: darkcyan;
+}
+.panel-footer > .glyphicon-trash:hover
+{
+  color: red;
+  cursor: pointer; 
+}
+.desc
+{
+  text-align: center;
+  font-style: italic;
+}
+sub
+{
+  margin-left: -160px;
+}

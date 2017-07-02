@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="style.css">
+      
+</head>
+<body>
+
+  <div class="panel panel-default panel-primary">
+    <div class="panel-heading">Todo Application<br/>
+      <input type="text" id="whattodo" placeholder="Enter Task Here"></input><a href="javascript:;" onclick="add()"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+    </div>
+    <div class="panel-body">
+      <ul id="todolist">
+        <!--<li>HAssaan <div id="icon"> <span class="glyphicon glyphicon-remove-sign" aria-hidden="true" onclick="del()"></span> </div></li>
+        <li>HAssaan <div id="icon"> <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span> </div></li>
+        <li>HAssaan <div id="icon"> <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span> </div></li>
+        <li>HAssaan <div id="icon"> <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span> </div></li>-->
+      </ul>
+    </div>
+    <div class="panel-footer">
+     <span class="glyphicon glyphicon-ok" aria-hidden="true"> <span class="badge" id="totalItems">0</span> </span> <sub>Tasks to do</sub>
+     <span class="glyphicon glyphicon-trash" aria-hidden="true" onclick="delall();"></span>
+    </div>
+
+    <div class="panel-footer desc">
+    &copy; Designed by Hassaan Khan Roll No: 6168. All Rights Reserved.
+    </div>
+  </div>
+
+
+   <script src="app.js"></script>
+</body>
+</html>
